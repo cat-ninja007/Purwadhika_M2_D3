@@ -1,0 +1,233 @@
+.recent-article-container {
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 60px;
+}
+
+.recent-article-content-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.recent-article-category {
+    padding-bottom: 30px;
+}
+
+.recent-article-category nav ul {
+    display: flex;
+    /* border: 2px solid red; */
+    justify-content: space-evenly;
+}
+
+.recent-article-category nav ul li {
+    list-style: none;
+    text-decoration: underline;
+}
+.recent-article-category nav ul li:hover {
+    text-decoration: none;
+}
+
+
+.recent-article-category nav ul li a{
+    text-decoration: none;
+    color: #333333;
+    font-family: "Kaisei Decol", serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+
+
+/* BIG ADRTICLE */
+.recent-article-big-article{
+    position: relative;
+}
+.big-article-image img {
+    width: 645px;
+    height: 618px;
+    border-radius: 32px;
+}
+
+.big-article-headline{
+    /* border: 2px solid red; */
+    width: 585px;
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    color: #FFFFFF;
+    z-index: 5;
+}
+
+.big-article-headline h3{
+    font-family: "Kaisei Decol", serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34.75px;
+    text-align: left;
+}
+
+.big-article-headline p {
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    padding-top: 15px;
+}
+
+.background-gradient {  
+    display: block;
+    width: 645px;
+    height: 618px;
+    gap: 0px;
+    border-radius: 32px;
+    opacity: 0px;
+    position: absolute;
+    /* border: 2px solid red; */
+    top: 0;
+
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.1) 63.11%, rgba(0, 0, 0, 0.4) 100%);
+}
+
+.big-article-detail-info{
+    display: flex;
+    /* border: 2px solid orange; */
+    gap: 60px;
+}
+
+.big-article-detail-info p{
+    font-size: 12px;
+}
+
+.big-article-detail-info i{
+    padding-right: 15px;
+}
+
+
+.small-article-image img {
+    width: 195px;
+    height: 186px;
+}
+
+.recent-article-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.recent-article-item {
+    display: flex;
+    gap: 30px;
+}
+
+
+.big-article-feature-travel {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    position: absolute;
+    top: 0;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.featured {
+    width: 77px;
+    height: 28px;
+    border-radius: 8px;
+    padding: 5px 15px;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.featured p {
+    font-family: "Lato", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    color: rgba(0, 0, 0, 1);
+}
+
+.travel p{
+    font-family: "Lato", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+}
+
+.travel i {
+    padding-right: 15px;
+}
+
+
+/* .small-article-headline {
+    border: 2px solid red;
+} */
+
+.small-article-detail-info {
+    /* border: 2px solid red; */
+    display: flex;
+    gap: 30px;
+
+}
+
+.small-article-detail-info p{
+    font-family: "Lato";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    color: #656565;
+}
+
+.small-article-detail-info i{
+    padding-right: 15px;
+    color: #656565;
+}
+
+.small-article-headline h4{
+    font-family: "Kaisei Decol", serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34.75px;
+    text-align: left;
+    color: #333333;
+    padding-top: 5px;
+    /* border: 2px solid blue; */
+}
+
+.small-article-text{
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: left;
+    padding-top: 30px;
+    /* border: 2px solid red; */
+}
+
+.small-article-text p{
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: left;
+    color: #333333;
+}
+
+
+
+.article-text p{
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: left;
+
+}
+
+

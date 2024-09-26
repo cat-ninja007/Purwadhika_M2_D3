@@ -1,0 +1,95 @@
+.popular-works{
+    /* border: 2px solid red; */
+    padding-top: 60px;
+    padding-left: 60px;
+    padding-right: 60px;
+    
+}
+
+.popular-works-headline-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 60px;
+}
+
+/* .popular-works-headline {
+    border: 2px solid darkblue;
+}
+
+.popular-works-arrow{
+    border: 2px solid darkgoldenrod;
+} */
+
+.popular-works-headline h2 {
+    font-family: 'Kaisei Decol', serif;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 69.5px;
+    text-align: left;
+    color: #333333;
+}
+
+.popular-works-arrow img {
+    width: 40px;
+    height: 40px;
+}
+
+
+
+/* CARD */
+.popular-works-cards-container {
+    /* border: 2px solid green; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 61px;
+}
+
+.popular-work-card {
+    /* border: 2px solid darkorange; */
+    display: flex;
+}
+
+.popular-work-card-image img {
+    width: 83px;
+    height: 83px;
+    border-radius: 50%;
+}
+
+.popular-work-card-text-container {
+    margin-left: 30px;
+    
+}
+
+.popular-work-card-title {
+    font-family: "Kaisei Decol", serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34.75px;
+    text-align: left;
+    color: #333333;
+}
+
+.popular-work-card-description {
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: left;
+    color: #333333;
+}
+
+.hr2 {
+    margin: 0 60px;
+    opacity: 0.3;
+}
+
+.hr1 {
+    width: 82px;
+    border-color: #333333;
+    margin-left: 173px;
+    margin-top: -3px;
+    position: relative;
+}

@@ -1,0 +1,118 @@
+.jumbotron {
+    background-color: #EDECFF;
+    width: 100%;
+    height: 691px;
+    display: flex;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 128px;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+/* HEADLINE */
+
+.jumbotron-headline-container {
+    /* border: 2px solid red; */
+    width: 645px;
+}
+
+.jumbotron-headline-title h2{
+    font-family: "Kaisei Decol", serif;
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 81.09px;
+    text-align: left;
+    color: #333333;
+    padding-bottom: 60px;
+}
+
+.jumbotron-headline-subtitle p{
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: left;
+    padding-bottom: 60px;
+}
+
+.jumbotron-headline-cta {
+    width: 196px;
+    height: 40px;
+    border-left: 4px solid #333333;
+    background-color: #FDD9D3;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.jumbotron-headline-cta-arrow img {
+    width: 20px;
+    margin-top: 5px;
+}
+
+.jumbotron-headline-cta-text {
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.2px;
+    letter-spacing: 0.05em;
+    text-align: center;
+}
+
+
+
+/* IMAGES */
+
+.jumbotron-images-container {
+    /* border: 2px solid blue; */
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: space-evenly;
+    gap: 30px;
+    padding-bottom: 30px;
+}
+
+.jumbotron-image-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 2px solid red; */
+}
+
+.card-pt {
+    padding-top: 39px;
+}
+
+.card-pb {
+    padding-bottom: 39px;
+}
+
+.jumbotron-image img {
+    min-height: 460px;
+    width: 196px;
+    object-fit: cover;
+    border-radius: 24px;
+}
+
+
+.jumbotron-image-caption {
+    font-family: "Lato", sans-serif;
+    font-size: 8px;
+    font-weight: 500;
+    line-height: 12px;
+    text-align: left;
+}
+
+.jumbotron-image-caption span {
+    font-size: 12px;
+}
+
+.caption-mt {
+    margin-top: 15px;
+}
+
+.caption-mb {
+    margin-bottom: 15px;
+}
