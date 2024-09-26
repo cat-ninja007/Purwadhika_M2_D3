@@ -1,0 +1,111 @@
+.header {
+    background-color: #F4F5F7;
+}
+
+/* HEADER TOP */
+.header-top {
+    width: 100%;
+    background-color: #C4C4C4;
+}
+
+.shop-collection p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.07px;
+    text-align: center;
+    text-decoration: underline;
+    color: #000000;
+    padding-top: 16px;
+    padding-bottom: 17px;
+}
+
+.header-top-right {
+    /* border: 2px solid red; */
+    position: absolute;
+    right: 143px;
+    top: 12px;
+}
+
+.header-top-right nav ul {
+    display: flex;
+}
+
+.header-top-right nav ul {
+    list-style: none;
+}
+
+.header-top-right nav ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-family: "Open Sans", sans-serif;
+    cursor: pointer;
+}
+
+.sign-in {
+    margin-right: 15px;
+}
+
+.heart-o {
+    display: inline-block;
+    margin-right: 21px;
+}
+
+/* HEADER BOTTOM */
+.header-bottom-title h1{
+    font-family: "Modern No. 20", serif;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 51.36px;
+    text-align: center;
+    color: #000000;
+    padding-top: 21px;
+    padding-bottom: 19px;
+}
+.header-bottom-navigation nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-women {
+    margin-right: 66px;
+}
+
+.nav-men{
+    margin-right: 89px;
+}
+
+.nav-children {
+    margin-right: 56px;
+}
+
+.nav-sale{
+    margin-right: 90px;
+}
+
+.nav-newin {
+    margin-right: 68px;
+}
+
+.header-bottom-navigation nav ul li {
+    list-style: none;
+}
+
+.header-bottom-navigation nav ul li a {
+    font-family: "Modern No. 20", serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 19.26px;
+    text-align: center;
+    text-decoration: none;
+    color: #000000;
+}
+
+.header-bottom-navigation {
+    padding-bottom: 18px;
+}
+
+
+
+

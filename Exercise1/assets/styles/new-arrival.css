@@ -1,0 +1,60 @@
+.new-arrival {
+    display: flex;
+    flex-direction: column;
+    background-color: #F4F5F7;
+}
+
+.new-arrival-headline h2 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 49.03px;
+    text-align: center;
+    padding-top: 47px;
+
+}
+
+.new-arrival-card-container {
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-top: 74px;
+    padding-bottom: 34px;
+}
+
+/* .new-arrival-card {
+    border: 2px solid blue;
+} */
+
+.new-arrival-card-image img {
+    width: 365px;
+    height: 496px;
+    object-fit: cover;
+}
+
+
+
+.new-arrival-card-info{
+    padding-left: 40px;
+    padding-top: 16px;
+}
+
+.card-colors-text {
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16.34px;
+    text-align: left;
+    color: #848484;
+    text-transform: uppercase;
+}
+
+.card-products-name {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 19.07px;
+    color: #000000;
+
+}

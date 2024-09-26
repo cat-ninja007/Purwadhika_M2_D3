@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url('../fonts/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf') format('truetype');
+    font-weight: 100 900; /* Rentang berat yang tersedia */
+    font-style: normal;
+    font-optical-sizing: auto;
+}
+
+.open-sans-variable {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: var(--weight, 400); /* Default to 400 (regular) */
+    font-style: normal;
+    font-variation-settings: 
+      "wght" var(--weight, 400), /* Default weight */
+      "wdth" 100; /* Default width */
+}
+
+
+@font-face {
+    font-family: 'Modern No. 20';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Modern No. 20'), url('../fonts/modern-no-20-webfont/MOD20.woff') format('woff');
+}
